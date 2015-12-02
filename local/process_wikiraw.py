@@ -1,0 +1,1 @@
+/home/vijay/Documents/jobs/yikyak/process_wikiraw.py
