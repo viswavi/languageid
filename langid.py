@@ -37,8 +37,7 @@ def test():
         return (langs[results[0]],results[1])
 '''
 models = map(lambda code: kenlm.LanguageModel('lm/' + code + ".binary"), corp)
-persistent = ''
-print train.language(models,"Le parole est l\u0027ombre du fait")
+print len(models)
 
 #!flask/bin/python
 from flask import Flask
@@ -57,7 +56,7 @@ def index(text):
         return "(" + langs[results[0]] + "," + str(results[1]) + ")"
 
 if __name__ == '__main__':
-    app.run(host='localhost',port=5000,debug=True)
+    app.run(debug=True)
 
 '''
 import web

@@ -1,1 +1,0 @@
-/home/vijay/Documents/jobs/yikyak/langid_new.py

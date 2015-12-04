@@ -1,1 +1,1 @@
-web: gunicorn langid:index --log-file=-
+web: gunicorn application:hello --log-file=-
