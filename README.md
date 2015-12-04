@@ -31,7 +31,8 @@ The system has 4 basic components:
   
 *Deployment*
 
-  -Deployed in Heroku via git
+  -Deployed a Python webapp made with Flask
+  -Runs on Heroku: https://sheltered-chamber-9758.herokuapp.com/<input_text>
   
 
 
