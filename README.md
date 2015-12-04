@@ -14,17 +14,23 @@ I used KenLM to create a 5-gram character-level language model, with modified Kn
 The system has 4 basic components:
 
 *Data*
+
   -data preprocessing in process_wikiraw.py
+  
   -generating test corpus in extract.py
   
 *Training n-gram language models with KenLM*
+
   -prepare-lm.py
   
 *Language Identification*
   -core methods in train.py
+  
+  
   -test method in langid.py
   
 *Deployment*
+
   -Deployed in Heroku via git
   
 
