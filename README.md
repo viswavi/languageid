@@ -21,18 +21,19 @@ The system has 4 basic components:
   -test method in langid.py
 *Deployment*
   -Deployed in Heroku via git
-
-In order to test the system via web service:
+br to test the system via web service:
 if you wish to identify a string "हिन्दी विकिपीडिया", run
 curl https://sheltered-chamber-9758.herokuapp.com/हिन्दी%20विकिपीडिया and you will see a response:
 "(Hindi, 0.999)"
 
 In order to build from scratch, in the Python REPL, try
 from train import language
+```
 >> text = "Le parole est l\u0027ombre du fait"
 >> print language(text)
 ...
 >> ('en', 0.866)
+```
 
 *Accuracy and Testing*
 For each language, I obtained 1000 random strings, averaging about 12 tokens per string (to be close to the size of the average Yak). For each sentence I identified the language automatically, and compared to the real language of origin to compute the accuracy. On average sentences were accurately identified 84.8% of the time, but widespread languages saw better results: English, French, German, and Hindi saw accuracy rates of 93.6, 92.4, 92.1, and 95.2%. The full results are as follows, in dictionary format where each key is (number correctly identified, number wrong) out of 1000.
