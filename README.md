@@ -46,8 +46,8 @@ from train import language
 ```
 >> text = "Le parole est l\u0027ombre du fait"
 >> print language(text)
-...
->> ('en', 0.866)
+... #prints language scores
+>> ('fr', 0.999)
 ```
 
 
