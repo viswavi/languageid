@@ -10,7 +10,7 @@ PyYAML==3.11
 Twisted-Core==13.2.0
 Twisted-Web==13.2.0
 UNKNOWN==0.0.0
-Werkzeug==0.11.2
+Werkzeug==0.15.3
 adium-theme-ubuntu==0.3.4
 appdirs==1.4.0
 apt-xapian-index==0.45
