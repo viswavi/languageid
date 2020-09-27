@@ -43,7 +43,7 @@ docutils==0.12
 duplicity==0.6.23
 filelock==2.0.5
 gensim==0.12.3
-gunicorn==17.5
+gunicorn==19.5.0
 gyp==0.1
 h5py==2.5.0
 html5lib==0.999
