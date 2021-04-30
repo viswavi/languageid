@@ -95,7 +95,7 @@ pyxdg==0.25
 pyzmq==14.0.1
 reportlab==3.0
 requests==2.6.2
-rsa==3.2.3
+rsa==4.7
 scikit-cuda==0.5.1
 scikit-learn==0.16.1
 scipy==0.13.3
