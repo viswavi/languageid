@@ -113,7 +113,7 @@ tensorflow==1.15.4
 texttable==0.8.4
 tornado==3.1.1
 unity-lens-photos==1.0
-urllib3==1.7.1
+urllib3==1.26.5
 virtualenv==13.1.2
 wcwidth==0.1.5
 web.py==0.37
