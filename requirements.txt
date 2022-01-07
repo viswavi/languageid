@@ -31,7 +31,7 @@ chainer-cuda-deps==1.1.0.1
 chardet==2.0.1
 colorama==0.3.3
 command-not-found==0.3
-cvxopt==1.1.4
+cvxopt==1.2.7
 debtagshw==0.1
 decorator==3.4.0
 defer==1.0.6
