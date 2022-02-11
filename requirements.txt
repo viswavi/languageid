@@ -70,7 +70,7 @@ pathspec==0.3.3
 patsy==0.2.1
 pexpect==3.1
 piston-mini-client==0.7.5
-protobuf==2.6.1
+protobuf==3.15.0
 py==1.4.31
 pyOpenSSL==0.13
 pyasn1==0.1.9
