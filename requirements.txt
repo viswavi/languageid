@@ -64,7 +64,7 @@ numexpr==2.2.2
 numpy==1.10.1
 oauthlib==0.6.1
 oneconf==0.3.7.14.04.1
-openpyxl==1.7.0
+openpyxl==2.4.2
 pandas==0.13.1
 pathspec==0.3.3
 patsy==0.2.1
