@@ -46,7 +46,7 @@ gensim==0.12.3
 gunicorn==17.5
 gyp==0.1
 h5py==2.5.0
-html5lib==0.999
+html5lib==0.999999999
 httplib2==0.18.0
 httpretty==0.8.6
 ipython==2.3.0
