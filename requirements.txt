@@ -52,7 +52,7 @@ httpretty==0.8.6
 ipython==2.3.0
 itsdangerous==0.24
 jmespath==0.9.0
-joblib==0.7.1
+joblib==1.2.0
 kenlm==0.0.0
 lockfile==0.8
 logger==1.4
