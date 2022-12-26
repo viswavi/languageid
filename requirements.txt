@@ -119,7 +119,7 @@ wcwidth==0.1.5
 web.py==0.37
 websocket-client==0.34.0
 wget==3.2
-wheel==0.24.0
+wheel==0.38.1
 wikipedia==1.4.0
 word2vec==v0.8.1
 wsgiref==0.1.2
